@@ -13,6 +13,20 @@
         android:theme="@style/Theme.TestKotlinApplication"
         tools:targetApi="31">
         <activity
+            android:name=".LoginDialogFragment"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LoginDialog"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ViewPagerTestActivity"
             android:exported="false">
             <meta-data
