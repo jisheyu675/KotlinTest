@@ -7,20 +7,62 @@
     tools:context=".MainActivity"
     tools:ignore="MissingClass">
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewpager_login"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="40dp"
+        >
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/table_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="wipeDemo"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:onClick="liquidsSwipe"
+            android:background="@drawable/botton_pink_style"
+            />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="记账demo"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:onClick="accountingTest"
+            android:background="@drawable/botton_green_style"
+            />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="demo"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/botton_yellow_style"
+            />
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="登录"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/botton_blue_style"
+            />
+
+
+
+
+    </LinearLayout>
+
+
 
 
 

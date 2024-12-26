@@ -10,4 +10,9 @@
     <color name="WhiteSmoke">#F5F5F5</color>
     <color name="AliceBlue">#F0F8FF</color>
     <color name="LavenderBlush">#FFF0F5</color>
+    <color name="NavajoWhite">#FFDEAD</color>
+    <color name="SeaGreen">#2E8B57</color>
+    <color name="LightSkyBlue">#48D1CC</color>
+    <color name="MistyRose">#FFB6C1</color>
+
 </resources>

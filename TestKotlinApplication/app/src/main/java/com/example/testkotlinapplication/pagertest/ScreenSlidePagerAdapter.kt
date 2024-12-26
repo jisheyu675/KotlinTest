@@ -1,4 +1,4 @@
-package com.example.testkotlinapplication
+package com.example.testkotlinapplication.pagertest
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -16,5 +16,6 @@ class ScreenSlidePagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm, BE
             else-> OnBoardingFragment3()
         }
     }
+    
 
 }
